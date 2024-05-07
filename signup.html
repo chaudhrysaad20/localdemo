@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign UP</title>
+</head>
+<body>
+    <div>
+        <h1>Sign-Up</h1>
+        <form action="/action_page.php" target="_self" autocomplete="on">
+            <label for="fname">First Name</label>
+            <input type="text" id="fname" name="fname" required><br><br>
+            <label for="lname">Last Name</label>
+            <input type="text" id="lname" name="lname" required><br><br>
+            <label for="phnumber">Phone Number</label>
+            <input type="number" id="phnumber" name="phnumber" required><br><br>
+            <label for="email">Email</label> 
+            <input type="email" id="email" name="email" required><br><br>
+            <label for="pass">Password</label>
+            <input type="password" id="pass" name="pass"><br><br>
+            <label for="gender">Gender</label>
+            <input type="radio" id="male" name="gender">
+            <label for="male">Male</label>
+            <input type="radio" id="female" name="gender">
+            <label for="female">Female</label>
+            <input type="radio" id="others" name="gender">
+            <label for="others">Others</label>
+            <br><br>
+            <label for="joinas">Joining As</label>
+            <input type="checkbox" id="student" name="joinas" >
+            <label for="student">Student</label>
+            <input type="checkbox" id="teacher" name="joinas" >
+            <label for="teacher">Teacher</label>
+            <input type="checkbox" id="Workspace" name="joinas" >
+            <label for="workspace">Workspace</label>
+            <br><br>
+            <label for="timming">Choose your Timming</label>
+            <select id="timming"  name="timming" >
+                <option value="8am-12pm">8am-12pm</option>
+                <option value="12pm-4pm">12pm-4pm</option>
+                <option value="4pm-8pm">4pm-8pm</option>
+            </select>
+            <br><br>
+            <button type="button" onclick="alert('Hello World!')">Click Me!</button>
+            <br><br>
+
+
+            <input type="submit" value="submit">
+            <input type="reset" value="reset"
+
+
+
+
+
+        </form>
+    </div>
+</body>
+</html>
